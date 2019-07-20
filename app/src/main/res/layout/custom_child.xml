@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/custom_child_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/custom_child_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
